@@ -1,0 +1,19 @@
+site_name: Próba
+theme:
+  name: material
+  language: hu
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+
+plugins:
+  - search
+  - blog:
+      blog_dir: hírfolyam
+      post_dir: "{blog}/hírek"
+      archive: false
+      blog_toc: true
+      categories_toc: false
+
+docs_dir: oldalak
